@@ -204,8 +204,6 @@ python dev.py --syntax                                     # 改动脚本后自�
 | fontTools | 可选 | 读取字体真实纵向度量，用于红头精确落位；未安装时用内置度量表 |
 | 标准库 | — | argparse、json、zipfile、winreg、subprocess、unicodedata、ast 等 |
 
-> 早期说明中列出的 `python-dateutil` 已不再需要：日期只做格式校验与字符串输出，用标准库 `datetime`/`re` 即可。
-
 ### 核心模块
 
 | 模块 | 职责 |
